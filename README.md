@@ -76,3 +76,10 @@ Nest is [MIT licensed](LICENSE).
 ```
 npm i @nestjs/core @nestjs/common rxjs reflect-metadata @nestjs/config
 ```
+
+```
+docker-compose exec app bash
+npm cache clean --force
+npm install prisma -D
+npx prisma init
+```
